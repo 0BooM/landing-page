@@ -154,6 +154,9 @@ header .container{
     align-self: flex-end;
 }
 
+.sign-up-section{
+    padding: 0 20px;
+}
 .sign-up-section .container{
     display: flex;
     justify-content: space-evenly;
@@ -167,4 +170,14 @@ header .container{
 
 .sign-up-section .sign-up{
     border: solid 2px white;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
