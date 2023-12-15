@@ -161,6 +161,8 @@ header .container{
     color: white;
     align-items: center;
     margin: 80px auto;
+    padding: 40px 0;
+    border-radius: 8px;
 }
 
 .sign-up-section .sign-up{
