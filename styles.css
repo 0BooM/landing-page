@@ -90,3 +90,45 @@ header .container{
     font-size: 16px;
     border-radius: 8px;
 }
+
+.information-section{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.information-section h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.information-section .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes{
+    max-width: 1100px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    border-radius: 8px;
+    border: solid 3px #3882F6;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.box-container p{
+    max-width: 150px;
+}
